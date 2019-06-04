@@ -1,0 +1,9 @@
+执行makefile 生成.so文件
+make
+
+
+生成可执行文件 aaa
+g++ -o aaa example_l2.cpp -L. -ln2
+
+将.so路径添加到系统路径
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/martin/Project/n2-dev/include/src/
