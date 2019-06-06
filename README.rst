@@ -46,7 +46,7 @@ supports multi-core CPUs for index building.
 Memory_model
 ----------
 
-![](D:\Multiple_attributes_nsw\memory_model\多属性nsw近邻搜索.png)
+![](..\memory_model\多属性nsw近邻搜索.png)
 
 Features
 --------
