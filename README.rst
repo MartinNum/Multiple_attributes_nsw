@@ -6,17 +6,17 @@ N2
 
 .. image:: https://img.shields.io/pypi/v/n2.svg?style=flat
    :target: https://pypi.python.org/pypi/n2
-   
+
 N2 - approximate **N**\ earest **N**\ eighbor
 
 .. code:: python
 
     import numpy as np
     from n2 import HnswIndex
-
+    
     N, dim = 10240, 20
     samples = np.arange(N * dim).reshape(N, dim)
-
+    
     index = HnswIndex(dim)
     for sample in samples:
         index.add_data(sample)
@@ -43,14 +43,10 @@ C++ (including Python/Go bindings). N2 provides a much faster search
 speed than other implementations when modeling large dataset. Also, N2
 supports multi-core CPUs for index building.
 
-Background
+Memory_model
 ----------
 
-There are great approximate nearest neighborhoods libraries such as
-`annoy`_ and `nmslib`_, but they did not fully meet the requirments to
-handle Kakao’s dataset. Therefore, we decided to implement a library
-that improves usability and performs better based on `nmslib`_. And
-finally, we release N2 to the world.
+![](C:\Users\Java\Desktop\HNSW研究\多属性nsw近邻搜索.png)
 
 Features
 --------
@@ -132,3 +128,5 @@ limitations under the License.
 .. |image0| image:: docs/imgs/build_time/build_time.png
 .. |image1| image:: docs/imgs/search_time/search_speed.png
 .. |image2| image:: docs/imgs/mem/memory_usage.png
+
+~~~~~~~~~~~~
