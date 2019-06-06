@@ -46,7 +46,7 @@ supports multi-core CPUs for index building.
 Memory_model
 ----------
 
-![](C:\Users\Java\Desktop\HNSW研究\多属性nsw近邻搜索.png)
+![](D:\Multiple_attributes_nsw\memory_model\多属性nsw近邻搜索.png)
 
 Features
 --------
