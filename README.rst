@@ -128,5 +128,6 @@ limitations under the License.
 .. |image0| image:: docs/imgs/build_time/build_time.png
 .. |image1| image:: docs/imgs/search_time/search_speed.png
 .. |image2| image:: docs/imgs/mem/memory_usage.png
+.. |image3| image:: docs/imgs/memory_model/多属性nsw近邻搜索.png
 
 ~~~~~~~~~~~~
