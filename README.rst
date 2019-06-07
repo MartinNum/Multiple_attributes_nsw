@@ -46,7 +46,7 @@ supports multi-core CPUs for index building.
 Memory_model
 ----------
 
-![](https://github.com/javaCJ/Multiple_attributes_nsw/blob/master/memory_model/%E5%A4%9A%E5%B1%9E%E6%80%A7nsw%E8%BF%91%E9%82%BB%E6%90%9C%E7%B4%A2.png)
+|image3|
 
 Features
 --------
